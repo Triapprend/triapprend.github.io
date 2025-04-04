@@ -1,34 +1,34 @@
 # Triapprend
 
-A tool for collecting and visualizing event data from [connpass.com](https://connpass.com).
+[connpass.com](https://connpass.com)からイベントデータを収集・可視化するためのツールです。
 
-## Overview
+## 概要
 
-This project consists of two main components:
-- A Rust-based CLI tool for fetching event data
-- A Next.js web application for displaying the events
+このプロジェクトは主に2つのコンポーネントで構成されています：
+- イベントデータを取得するためのRustベースのCLIツール
+- イベントを表示するためのNext.jsウェブアプリケーション
 
-## Getting Started
+## 始め方
 
-### CLI Tool
+### CLIツール
 
-The CLI tool allows you to fetch event data from the connpass.com API by date.
+CLIツールを使用すると、日付ごとにconnpass.com APIからイベントデータを取得できます。
 
 ```rust
 cargo run -- --ymd YYYYMMDD
 ```
 
-### Data Collection Script
+### データ収集スクリプト
 
-Alternatively, you can use the Python script to collect event data:
+または、Pythonスクリプトを使用してイベントデータを収集することもできます：
 
 ```python
 python scripts/collector.py YYYYMMDD
 ```
 
-### Web Application
+### ウェブアプリケーション
 
-To run the web application:
+ウェブアプリケーションを実行するには：
 
 ```bash
 cd web
@@ -36,14 +36,14 @@ pnpm install
 pnpm dev
 ```
 
-Then open [http://localhost:3000](http://localhost:3000) in your browser.
+その後、ブラウザで[http://localhost:3000](http://localhost:3000)を開いてください。
 
-## Project Structure
+## プロジェクト構造
 
-- `src/` - Rust CLI tool source code
-- `scripts/` - Python scripts for data collection
-- `web/` - Next.js web application (see [web/README.md](web/README.md) for more details)
+- `src/` - Rust CLIツールのソースコード
+- `scripts/` - データ収集用のPythonスクリプト
+- `web/` - Next.jsウェブアプリケーション（詳細は[web/README.md](web/README.md)を参照）
 
-## License
+## ライセンス
 
-See the [LICENSE](LICENSE) file for details.
+詳細は[LICENSE](LICENSE)ファイルを参照してください。

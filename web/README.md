@@ -1,17 +1,17 @@
-# Triapprend Web Application
+# Triapprend ウェブアプリケーション
 
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+これは[Next.js](https://nextjs.org)プロジェクトで、[`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app)でブートストラップされています。
 
-## Getting Started
+## 始め方
 
-First, install dependencies and run the development server:
+まず、依存関係をインストールして開発サーバーを実行します：
 
 ```bash
 pnpm install
 pnpm dev
 ```
 
-Alternatively, you can use other package managers:
+または、他のパッケージマネージャーを使用することもできます：
 
 ```bash
 # npm
@@ -27,33 +27,33 @@ bun install
 bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+ブラウザで[http://localhost:3000](http://localhost:3000)を開いて結果を確認してください。
 
-## Development
+## 開発
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+`app/page.tsx`を変更することでページの編集を開始できます。ファイルを編集すると、ページは自動的に更新されます。
 
-This project uses:
-- [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a custom font family for Vercel
-- [Leaflet](https://leafletjs.com/) and [React Leaflet](https://react-leaflet.js.org/) for map visualization
+このプロジェクトでは以下を使用しています：
+- [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) - Vercel用のカスタムフォントファミリー[Geist](https://vercel.com/font)を自動的に最適化して読み込む
+- [Leaflet](https://leafletjs.com/)と[React Leaflet](https://react-leaflet.js.org/) - 地図の可視化
 
-## Learn More
+## もっと学ぶ
 
-To learn more about Next.js, take a look at the following resources:
+Next.jsについて詳しく知るには、以下のリソースをご覧ください：
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- [Next.jsドキュメント](https://nextjs.org/docs) - Next.jsの機能とAPIについて学ぶ
+- [Next.jsを学ぶ](https://nextjs.org/learn) - インタラクティブなNext.jsチュートリアル
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+[Next.js GitHubリポジトリ](https://github.com/vercel/next.js)もチェックしてみてください - フィードバックや貢献を歓迎します！
 
-## Deployment
+## デプロイ
 
-### Deploy on Vercel
+### Vercelにデプロイ
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Next.jsアプリをデプロイする最も簡単な方法は、Next.jsの作成者による[Vercelプラットフォーム](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme)を使用することです。
 
-Check out the [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+詳細については、[Next.jsデプロイメントドキュメント](https://nextjs.org/docs/app/building-your-application/deploying)をご覧ください。
 
-### Deploy on GitHub Pages
+### GitHub Pagesにデプロイ
 
-Since this project is designed to be hosted on GitHub Pages, you can also deploy it using GitHub Actions. See the main [README.md](../README.md) for more information about the project structure.
+このプロジェクトはGitHub Pagesでホストされるように設計されているため、GitHub Actionsを使用してデプロイすることもできます。プロジェクト構造の詳細については、メインの[README.md](../README.md)を参照してください。
